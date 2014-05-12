@@ -14,7 +14,7 @@ uri - The uri value is from right clicking the desired playlist and clicking "Co
 e.g. /spotify-php-playlist.php?output=json&uri=spotify:user:11120006795:playlist:3aPdhb6UvgYp0kpxnokNTH
 
 
-Outputs
+?output
 =======
 ?output=xml
 Displays track information in the following layout:
@@ -51,15 +51,10 @@ Displays track information in the following layout:
 By default the track information is displayed in a HTML table.
 
 
-Specifying Spotify Playlist URI
-===============================
-Right click on a playlist in Spotify and click "Copy Spotify URI", and paste it with the parameter uri=
-
-
 Example Use
 ===========
 
 You can see an example of the script running with an example playlist here:
-http://tomashenden.com/<link here>
+http://tomashenden.com/get-spotify-playlists-in-php-as-html-xml-or-json
 
-You can see how this script could be utilised using xml from spotify-php-playlist-test.php
+You can see how this script could be utilised using xml from the example file spotify-php-example.php
