@@ -1,7 +1,7 @@
 spotify-php-playlist
 ====================
 
-spotify-php-playlist is a PHP API to pull track details in either HTML, XML or JSON format, from any public Spotify playlist.
+spotify-php-playlist is a lightweight PHP API to pull track details in either HTML, XML or JSON format, from any public Spotify playlist. The API can pull the playlist name, track titles, artists, duration, and links to play on the Spotify website.
 
 How to use
 ==========
@@ -14,14 +14,15 @@ uri - The uri value is from right clicking the desired playlist and clicking "Co
 e.g. /spotify-php-playlist.php?output=json&uri=spotify:user:11120006795:playlist:3aPdhb6UvgYp0kpxnokNTH
 
 
-?output
+Output
 =======
 To see the structure of each format, please refer to the comments in spotify-php-playlist
+
 ?output=xml
 
 ?output=json
 
-?output=
+?output=html
 
 
 Example Use
