@@ -6,10 +6,12 @@ spotify-php-playlist is a PHP API to pull track details in either HTML, XML or J
 How to use
 ==========
 Run the php page with the following GET parameters:
+
 output - The disired output format, either html, xml or json
+
 uri - The uri value is from right clicking the desired playlist and clicking "Copy Spotify URI"
 
-e.g. /spotify-php-playlist.php??output=json&uri=spotify:user:11120006795:playlist:3aPdhb6UvgYp0kpxnokNTH
+e.g. /spotify-php-playlist.php?output=json&uri=spotify:user:11120006795:playlist:3aPdhb6UvgYp0kpxnokNTH
 
 
 Outputs
