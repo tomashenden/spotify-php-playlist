@@ -16,39 +16,12 @@ e.g. /spotify-php-playlist.php?output=json&uri=spotify:user:11120006795:playlist
 
 ?output
 =======
+To see the structure of each format, please refer to the comments in spotify-php-playlist
 ?output=xml
-Displays track information in the following layout:
-<xml>
- 	<playlist>
-		<name><value>PlaylistName</value></name>
-		<tracks>
-			<track>
-				<id><value>trackID</value></id>
-				<title><value>trackTitle</value></title>
-				<artist><value>trackArtist</value></artist>
-				<duration><value>trackDuration</value></duration>
-			</track>
-			<track>
-				...
-			</track>
-		</tracks
-	</playlist>
-</xlm>
 
 ?output=json
-Displays track information in the following layout:
-{ "name":"PlaylistName",
-	"tracks": [
-			{ "id":trackID,
-			  "title":"trackTitle",
-			  "artist":"trackArtist",
-			  "duration":"duration"
-			}, { ... }
-		] 
-}
 
 ?output=
-By default the track information is displayed in a HTML table.
 
 
 Example Use
