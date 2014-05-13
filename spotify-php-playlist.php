@@ -16,7 +16,7 @@
 */
 $spotURI = $_GET['uri'];
 // Match exact Spotify playlist URI pattern
-if ($c=preg_match_all("/".'(spotify)'.'(:)'.'(user)'.'(:)'.'((?:[A-Za-z0-9]*))'.'(:)'.'(playlist)'.'(:)'.'((?:[A-Za-z0-9]*))'."/is", $spotURI, $matches)) {
+if ($c=preg_match_all("/".'(spotify)'.'(:)'.'(user)'.'(:)'.'((?:[A-Za-z0-9_-]*))'.'(:)'.'(playlist)'.'(:)'.'((?:[A-Za-z0-9]*))'."/is", $spotURI, $matches)) {
       $userID = $matches[5][0];
       $playlistID = $matches[9][0];
 }
